@@ -31,6 +31,16 @@ async function getPage(url) {
   return domparser.parseFromString(text, "text/html");
 }
 
+function normalizeUrl(url) {
+  if (url.endsWith("/index.html")) {
+    // If an internal link refers to "/foo/index.html", strip "index.html" and load.
+    return url.slice(0, -"index.html".length);
+  } else if (!url.endsWith("/")) {
+    // All web.dev pages end with "/".
+    return `${url}/`;
+  }
+}
+
 /**
  * Swap the current page for a new one.
  * @param {string} url url of the page to swap.
@@ -40,6 +50,12 @@ async function getPage(url) {
 export async function swapContent(url, isFirstRun) {
   document.dispatchEvent(new CustomEvent("pageview", {detail: url}));
   const entrypointPromise = loadEntrypoint(url);
+
+  // If we disagree with the URL we're loaded at, then replace it inline
+  const normalized = normalizeUrl(url);
+  if (normalized) {
+    window.history.replaceState(null, null, normalized);
+  }
 
   // When the router boots it will always try to run a handler for the current
   // route. We don't need this for the HTML of the initial page load so we
@@ -74,14 +90,4 @@ export async function swapContent(url, isFirstRun) {
   document.title = page.title;
 
   store.setState({isPageLoading: false});
-}
-
-export function normalizeUrl(url) {
-  if (url.endsWith("/index.html")) {
-    // If an internal link refers to "/foo/index.html", strip "index.html" and load.
-    return url.slice(0, -"index.html".length);
-  } else if (!url.endsWith("/")) {
-    // All web.dev pages end with "/".
-    return `${url}/`;
-  }
 }
