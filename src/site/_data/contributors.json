@@ -1518,5 +1518,17 @@
       },
       "twitter": "yoavweiss",
       "github": "yoavweiss"
-    }
+  },
+  "jimper": {
+    "name": {
+      "given": "Jonathon",
+      "family": "Imperiosi"
+    },
+    "github": "jimper",
+    "org": {
+      "name": "Google",
+      "unit": "Ads Developer Relations"
+    },
+    "country": "JP"
+  }
 }
