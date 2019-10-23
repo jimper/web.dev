@@ -25,7 +25,7 @@ This post explains how fast ads benefit everyone, and how to start investigating
 
 Users come to your site for the content, not for the ads—they usually want to get some value as quickly as possible, with minimal interruption. If your site helps users do that well, they tend to return more often. While ads may be necessary for your business, they create a tension with the user's purpose.
 
-The browser has limited resources to work with—memory, CPU, and network bandwidth. The more of these resources your ads consume, the longer it takes for your page to become visually complete and [interactive](https://web.dev/interactive/). This can be a drag on user experience metrics like [session length](https://en.wikipedia.org/wiki/Session_(web_analytics)) and [bounce rate](https://en.wikipedia.org/wiki/Bounce_rate). You can improve these metrics by serving the most lightweight ads possible and loading them at the right time (which is not always right away).
+The browser has limited resources to work with—memory, CPU, and network bandwidth. The more of these resources your ads consume, the longer it takes for your page to become visually complete and [interactive](/interactive/). This can be a drag on user experience metrics like [session length](https://en.wikipedia.org/wiki/Session_(web_analytics)) and [bounce rate](https://en.wikipedia.org/wiki/Bounce_rate). You can improve these metrics by serving the most lightweight ads possible and loading them at the right time (which is not always right away).
 
 For many e-commerce publishers, display ads are a secondary source of revenue. If you're one of these publishers, you know that any ads you place on the page have some negative impact on your primary business metrics (sales, subscriptions, and more). Fast ads, by getting out of the page's way, give your primary business metrics a boost as well.
 
@@ -109,7 +109,7 @@ A good way to approach improving ad speed is to focus on reducing the amount of 
     <dt>Time to load ad libraries</dt>
     <dd>The time it takes to load all ad libraries necessary to issue the first ad request. May be improved by removing or delaying the loading of scripts that are not related to making ad requests.</dd>
     <dt>Time to first ad request</dt>
-    <dd>The time elapsed from ad library load to the first ad request being made. May be improved by parallelizing header bidding requests and avoiding tasks that <a href="https://web.dev/mainthread-work-breakdown/">block the main thread</a>.</dd>
+    <dd>The time elapsed from ad library load to the first ad request being made. May be improved by parallelizing header bidding requests and avoiding tasks that <a href="/mainthread-work-breakdown/">block the main thread</a>.</dd>
     <dt>Time to render first ad</dt>
     <dd>The time elapsed from the first ad request being made to the first ad being rendered. May be improved by reducing ad complexity and creative file size.</dd>
 </dl>
