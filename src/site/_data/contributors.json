@@ -1530,5 +1530,16 @@
       "unit": "Ads Developer Relations"
     },
     "country": "JP"
+  },
+  "rhazan": {
+    "name": {
+      "given": "Rob",
+      "family": "Hazan"
+    },
+    "github": "robhazan",
+    "org": {
+      "name": "Google",
+      "unit": "Product Manager"
+    }
   }
 }
