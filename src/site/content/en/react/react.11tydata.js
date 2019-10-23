@@ -17,7 +17,7 @@ module.exports = {
         title: 'Next.js',
         pathItems: [
           'performance-as-a-default-with-nextjs',
-          'how-to-use-amp-in-nextjs-and-why',
+          'how-amp-can-guarantee-fastness-in-your-nextjs-app',
           'nextjs-route-prefetching',
         ],
       },
