@@ -5,6 +5,7 @@ subhead: |
 date: 2019-10-09
 authors:
   - jimper
+  - rhazan
 description: |
     Understand the value of fast ads and how to think about ad speed.
 tags:
