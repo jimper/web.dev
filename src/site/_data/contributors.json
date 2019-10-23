@@ -1536,10 +1536,19 @@
       "given": "Rob",
       "family": "Hazan"
     },
-    "github": "robhazan",
     "org": {
       "name": "Google",
       "unit": "Product Manager"
+    }
+  },
+  "ernberg": {
+    "name": {
+      "given": "Gustav",
+      "family": "Ernberg von Heijne"
+    },
+    "org": {
+      "name": "Google",
+      "unit": "Technical Solutions Consultant"
     }
   }
 }
