@@ -38,7 +38,7 @@ When asked about their reasons for installing ad blockers, [many users cited "in
 
 Another way to think about this topic is from an advertiser's point of view. The sooner an ad appears on the page, the longer it will be visible on the screen, meaning it's more likely to be seen and interacted with. As views and interactions increase, so does the value of your ad slots in the eyes of advertisers.
 
-Conversely, [impressions](https://en.wikipedia.org/wiki/Impression_(online_media)) and [viewable impressions](https://en.wikipedia.org/wiki/Viewable_Impression) decrease the longer an ad takes to appear on the page. To provide a sense of the magnitude of this problem, the charts below show aggregated data from a 2017 experiment where 100ms to 1s of delay (latency) was injected before each ad response to the Google Publisher Tag in multi-request mode.
+Conversely, [impressions](https://en.wikipedia.org/wiki/Impression_(online_media)) and [viewable impressions](https://en.wikipedia.org/wiki/Viewable_Impression) decrease the longer an ad takes to appear on the page. To provide a sense of the magnitude of this problem, the charts below show aggregated data from a 2017 experiment where a delay between 100ms and 1s was injected before each ad response to the Google Publisher Tag in multi-request mode.
 
 <figure class="w-figure w-figure--center">
   <img src="https://cdn.glitch.com/d6637725-0d96-4b4b-b49c-dfe21e471307%2Fad-latency-injected-vs-impressions-change.png?v=1571759265424" alt="Chart showing latency injected vs. impressions change">
@@ -53,8 +53,6 @@ Conversely, [impressions](https://en.wikipedia.org/wiki/Impression_(online_media
     With 1s of added delay, viewability rates decreased by 3.6% for mobile traffic and 2.9% for desktop traffic. The dotted lines are extrapolations to visualize how improving ad speed could increase impressions.
   </figcaption>
 </figure>
-
-In the examples above, the median time for the first ad on a site to start rendering was 1.9s, and above 4.4s for 1 in 5 users (across all sites using the Google Publisher Tag). Subsequent ads start rendering later, and the timings for more complex sites tend to be higher. So on most sites, there is plenty of room for ad speed improvements.
 
 ## A framework for thinking about ad speed
 
