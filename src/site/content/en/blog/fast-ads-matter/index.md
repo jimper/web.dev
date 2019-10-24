@@ -1,7 +1,7 @@
 ---
 title: Fast ads matter
 subhead: |
-    Learn how improving ad speed can increase revenue AND makes users happy.
+    Learn how improving ad speed can increase revenue AND make users happy.
 date: 2019-10-09
 authors:
   - gernberg
