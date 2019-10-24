@@ -4,9 +4,9 @@ subhead: |
     Learn how improving ad speed can increase revenue AND makes users happy.
 date: 2019-10-09
 authors:
+  - gernberg
   - jimper
-  - rhazan
-  - ernberg
+  - robhazan
 description: |
     Understand the value of fast ads and how to think about ad speed.
 tags:
