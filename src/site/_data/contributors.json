@@ -1550,5 +1550,22 @@
       "name": "Google",
       "unit": "Technical Solutions Consultant"
     }
+  },
+  "thebengeu": {
+    "name": {
+      "given": "Beng",
+      "family": "Eu"
+    },
+    "twitter": "thebengeu",
+    "github": "thebengeu",
+    "glitch": "thebengeu",
+    "org": {
+      "name": "Google",
+      "unit": "AdSpeed"
+    },
+    "country": "US",
+    "description": {
+      "en": "AdSpeed tech lead at Google"
+    }
   }
 }
