@@ -61,7 +61,7 @@ With 1s of added delay, viewability rate decreased by 3.6% for mobile traffic an
 
 ## A framework for thinking about ad speed
 
-Modern websites tend to have complex and diverse ad serving setups, which means there's no one-size-fits-all method of making ads fast. Instead, the following sections give you a framework for thinking about ad speed. Some points are specific to Google Ad Manager, but the principals apply even if you're using a different ad server.
+Modern websites tend to have complex and diverse ad serving setups, which means there's no one-size-fits-all method of making ads fast. Instead, the following sections give you a framework for thinking about ad speed. Some points are specific to Google Ad Manager, but the principles apply even if you're using a different ad server.
 
 ### Know why you want to improve ad speed
 
