@@ -7,6 +7,7 @@ authors:
   - gernberg
   - jimper
   - robhazan
+  - thebengeu
 description: |
     Understand the value of fast ads and how to think about ad speed.
 tags:
@@ -38,19 +39,23 @@ When asked about their reasons for installing ad blockers, [many users cited "in
 
 Another way to think about this topic is from an advertiser's point of view. The sooner an ad appears on the page, the longer it will be visible on the screen, meaning it's more likely to be seen and interacted with. As views and interactions increase, so does the value of your ad slots in the eyes of advertisers.
 
-Conversely, [impressions](https://en.wikipedia.org/wiki/Impression_(online_media)) and [viewable impressions](https://en.wikipedia.org/wiki/Viewable_Impression) decrease the longer an ad takes to appear on the page. To provide a sense of the magnitude of this problem, the charts below show aggregated data from a 2017 experiment where a delay between 100ms and 1s was injected before each ad response to the Google Publisher Tag in multi-request mode.
+Conversely, [impressions](https://en.wikipedia.org/wiki/Impression_(online_media)) and [viewable impressions](https://en.wikipedia.org/wiki/Viewable_Impression) decrease the longer an ad takes to appear on the page. To provide a sense of the magnitude of this problem, the charts below show aggregated data from an experiment where a delay between 100ms and 1s was injected before each ad response, across 4 billion impressions on websites with the Google Publisher Tag in multi-request mode. The dotted lines are extrapolations to visualize how improving ad speed could increase impressions and viewability rate.
+
+With 1s of added delay, impressions decreased by 1.1% for mobile traffic and 1.9% for desktop traffic:
 
 <figure class="w-figure w-figure--center">
-  <img src="https://cdn.glitch.com/d6637725-0d96-4b4b-b49c-dfe21e471307%2Fad-latency-injected-vs-impressions-change.png?v=1571759265424" alt="Chart showing latency injected vs. impressions change">
+  <img src="./ad-latency-injected-vs-impressions-change.svg" alt="Chart showing latency injected vs. impressions change">
   <figcaption class="w-figcaption">
-    With 1s of added delay, impressions decreased by 1.1% for mobile traffic and 1.9% for desktop traffic. The dotted lines are extrapolations to visualize how improving ad speed could increase impressions.
+    Source: Google Internal Data, December 2016 to January 2017.
   </figcaption>
 </figure>
 
+With 1s of added delay, viewability rate decreased by 3.6% for mobile traffic and 2.9% for desktop traffic:
+
 <figure class="w-figure w-figure--center">
-  <img src="https://cdn.glitch.com/d6637725-0d96-4b4b-b49c-dfe21e471307%2Fad-latency-injected-vs-viewability-rate-change.png?v=1571759273082" alt="Chart showing latency injected vs. viewability rate change">
+  <img src="./ad-latency-injected-vs-viewability-rate-change.svg" alt="Chart showing latency injected vs. viewability rate change">
   <figcaption class="w-figcaption">
-    With 1s of added delay, viewability rates decreased by 3.6% for mobile traffic and 2.9% for desktop traffic. The dotted lines are extrapolations to visualize how improving ad speed could increase impressions.
+    Source: Google Internal Data, December 2016 to January 2017.
   </figcaption>
 </figure>
 
