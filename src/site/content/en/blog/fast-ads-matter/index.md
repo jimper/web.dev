@@ -1,8 +1,8 @@
 ---
 title: Fast ads matter
 subhead: |
-    Learn how improving ad speed can increase revenue AND make users happy.
-date: 2019-10-09
+    Learn how improving ad speed can increase revenue AND makes users happy.
+date: 2019-10-29
 authors:
   - gernberg
   - jimper
@@ -25,7 +25,7 @@ This post explains how fast ads benefit everyone, and how to start investigating
 
 ### Fast ads improve the user experience
 
-Users come to your site for the content, not for the ads—they usually want to get some value as quickly as possible, with minimal interruption. If your site helps users do that well, they tend to return more often. While ads may be necessary for your business, they create a tension with the user's purpose.
+Users come to your site to be entertained, get informed, or learn something new, and they expect your site to load quickly, with minimal interruption. If your site helps users do that well, they tend to return more often. While ads may be necessary for your business, they can create a tension with the user's purpose if they're slowing down your site.
 
 The browser has limited resources to work with—memory, CPU, and network bandwidth. The more of these resources your ads consume, the longer it takes for your page to become visually complete and [interactive](/interactive/). This can be a drag on user experience metrics like [session length](https://en.wikipedia.org/wiki/Session_(web_analytics)) and [bounce rate](https://en.wikipedia.org/wiki/Bounce_rate). You can improve these metrics by serving the most lightweight ads possible and loading them at the right time (which is not always right away).
 
